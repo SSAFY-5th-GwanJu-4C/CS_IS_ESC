@@ -3,7 +3,7 @@
 개념적인 모델입니다.**
 OSI 모델도 논리 네트워크를 정의하고 다양한 프로토콜 계층을 사용하여 **컴퓨터 패킷 전송을 효과적**으로 설명한다.
 
-* 통신에 관한 **국제적인 표준 기구인 ISO(International Organization for Standardization)**에서 제정한 규격
+* 통신에 관한 국제적인 표준 기구인 ISO(International Organization for Standardization)에서 제정한 규격
 
 * 통신을 **7개의 단계별로 표준화**하여 **효율성**을 높이기 위해 만들어졌다.
 
