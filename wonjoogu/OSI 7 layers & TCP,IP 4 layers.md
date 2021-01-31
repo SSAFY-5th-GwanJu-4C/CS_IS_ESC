@@ -1,4 +1,4 @@
-# :raising_hand::point_right::fist::thumbsup::ok_hand::hand::pencil: OSI 7 layers (OSI 7계층) 이란?
+# :pencil: OSI 7 layers (OSI 7계층) 이란?
 * Open Systems Interconnection model은 **다른 시스템과의 상호 연결 및 통신에 개방된 시스템에서 사용하는 네트워크 통신을 정의하는 논리적이고
 개념적인 모델입니다.**
 OSI 모델도 논리 네트워크를 정의하고 다양한 프로토콜 계층을 사용하여 **컴퓨터 패킷 전송을 효과적**으로 설명한다.
