@@ -1,7 +1,4 @@
 # :pencil: TCP와 UDP란?
-
-<img src = "https://www.cloudflare.com/img/learning/ddos/glossary/user-datagram-protocol-udp/tcp-vs-udp.svg" width="100%" height="50%"></img>   
-
     v TCP (전송 제어 프로토콜) 및 UDP (사용자 데이터 그램 프로토콜)는 모두 인터넷을 통해    
     장치에서 웹 서버로 데이터를 전송하는 네트워크 프로토콜이다.   
     Skype에서 친구와 채팅하거나, 이메일을 보내거나, 온라인 비디오를 보거나, 웹을 탐색 할 때마다   
@@ -30,5 +27,37 @@
 데이터전송 | 데이터는 특정 순서로 전송되며 이는 **패킷이 순서대로 수신기에 도착**함을 의미 | **데이터 순서가 없다.** 순서를 구현하려면 응용 프로그램 계층에서 관리해야함
 성능 | TCP는 UDP에 비해 성능이 **느리고 효율성이 떨어짐.** 또한 TCP는 UDP에 비해 무겁습니다. | UDP는 TCP보다 **빠르고 효율적**입니다.
 재전송 | 패킷이 손실되거나 재전송이 필요한 경우 **TCP에서 데이터 패킷의 재전송 가능** |  UDP에서는 **패킷 재전송이 불가능**   
+ 
+:ok_hand: 한 눈에 보기 쉽게!    
+
+<img src="https://user-images.githubusercontent.com/50662573/106372970-9c290b80-63b8-11eb-89ae-6259818a2abe.jpg" width="70%" height="50%"></img>   
+
+## :point_right: TCP와 UDP의 작동 방식을 알아보자!   
+<img src = "https://www.cloudflare.com/img/learning/ddos/glossary/user-datagram-protocol-udp/tcp-vs-udp.svg" width="100%" height="50%"></img>   
+
+* TCP는보다 안정적인 것으로 간주되기 때문에 인터넷에서 가장 일반적으로 사용되는 프로토콜입니다. 데이터를 전송하는 방법은 다음과 같습니다.
+
+* TCP는 **각 데이터 패킷에 고유 한 식별자와 시퀀스 번호를 할당**합니다. 이를 통해 **수신자는 수신 된 패킷과 다음에 도착할 패킷을 식별** 할 수 있습니다.
+
+* 데이터 패킷이 수신되고 순서가 올바른 경우 수신자는 발신자에게 승인을 보냅니다.
+
+* 발신자는 이제 다른 패킷을 보낼 수 있습니다.
+
+* 패킷이 손실되거나 잘못된 순서로 전송되면 수신자는 침묵을 유지하여 동일한 데이터 패킷을 재전송해야 함을 나타냅니다.   
+
+## ❗ TCP와 UDP가 Java에서 어떻게 사용될까?   
+✔ java.net package에서 Socket과 URL 그리고 Datagrams 제공   
+
+<img src="https://user-images.githubusercontent.com/50662573/106373185-52412500-63ba-11eb-93cc-38701cbeb422.png" width="70%" height="50%"></img>   
+
+✔ Server가 사용된 예제   
+
+<img src="https://user-images.githubusercontent.com/50662573/106373209-96ccc080-63ba-11eb-8bb9-25f1da1ca2c3.png" width="70%" height="50%"></img>   
+
+✔ Client가 사용된 예제  
+
+<img src="https://user-images.githubusercontent.com/50662573/106373247-0cd12780-63bb-11eb-8e7c-bcf8e14da142.png" width="70%" height="50%"></img> 
+
+
 
 
