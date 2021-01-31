@@ -38,7 +38,7 @@
 ><br>
 
 ### OSI 7 Layer
-<p align="center"><img src="./img/Network_model/OSI7Layers.png" width = "800px"></p><br>
+<p align="center"><img src="./img/Network_Model/OSI7Layers.png" width = "800px"></p><br>
 
 |계층|역할|
 |----|----|
@@ -59,13 +59,13 @@
 - 데이터의 정확성 확인은 TCP가, 패킷을 목적지까지 전송하는 일은 IP가 담당한다.
 
 #### TCP/IP의 4계층
-<p align="center"><img src="./img/Network_model/model.png" width = "800px"></p><br>
+<p align="center"><img src="./img/Network_Model/model.png" width = "800px"></p><br>
 
 TCP/IP는 OSI 참조 모델과 달리 표현계층, 세션계층을 응용계층에 다 포함시키고 있지만, 사실상 TCP/IP Model의 Application 계층 하나에서 Application, Presentatiom, Session 계층의 구현을 하고있다.
 
 ### TCP/IP의 계층간 데이터 전달
 - 데이터는 아래 그림과 같이 단계 별로 헤더(Data → Segment → Datagram → Frame)를 붙여 전송한다.
-<p align="center"><img src="./img/Network_model/TCP_IP_4Layers.gif" width = "800px"></p><br>
+<p align="center"><img src="./img/Network_Model/TCP_IP_4Layers.gif" width = "800px"></p><br>
 
 ### TCP/IP 4계층의 계층 간 역할
 |계층|역할|데이터 단위|

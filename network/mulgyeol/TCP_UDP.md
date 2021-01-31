@@ -63,7 +63,7 @@
 
 
 ### TCP Connection & Disconnection
-![TCP_Connection_Disconnection](./img/TCP_UDP/TCP_connection_disconnection.png)
+<p align="center"><img src="./img/TCP_UDP/TCP_connection_disconnection.png" width = "800px"></p><br>
 
 ### TCP Connection (3-way handshake)
 1. 먼저 open()을 실행한 클라이언트가 SYN을 보내고 SYN_SENT 상태로 대기한다.
