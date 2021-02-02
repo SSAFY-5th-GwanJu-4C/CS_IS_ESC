@@ -48,8 +48,8 @@ This is released under the MIT license. See [LICENSE](https://github.com/SSAFY-5
 **주입식 공부는 우리를 코더로 만드는 가장 치명적인 독이다.**        
 
 ## 📖 HISTORY
-[OSI 7 Layer && TCP/IP](#)
-[TCP && UDP](#)
+[OSI 7 Layer && TCP/IP](#)   
+[TCP && UDP](#)  
 
 ## 😉Contributors
 
