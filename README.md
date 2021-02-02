@@ -2,7 +2,7 @@
 광주 4반, CS스터디
 
 ## LICENSE
-This is released under the MIT license. See [LICENSE]() for details.
+This is released under the MIT license. See [LICENSE](https://github.com/SSAFY-5th-GwanJu-4C/CS_IS_ESC/blob/main/LICENSE) for details.
 
 ## 기간     
 2020/01/25 ~ SSAFY를 탈출하는 그날까지.. ㅎ        
