@@ -1,9 +1,12 @@
 # CS_IS_ESC
 광주 4반, CS스터디
-   
+
+## LICENSE
+This is released under the MIT license. See [LICENSE]() for details.
+
 ## 기간     
 2020/01/25 ~ SSAFY를 탈출하는 그날까지.. ㅎ        
-   
+
 ## 💁🏻‍♀️  각자 정리 내용에 대해서 설명할 것을 준비하자       
 스터디 시작 전 오늘은 어떤 내용에 대해서 어떤 발표를 할 것인지 생각하자.               
 스터디의 가장 큰 장점은 동기들과 같이 협업하면서 성장할 수 있다는 것!                       
@@ -45,3 +48,13 @@
 **주입식 공부는 우리를 코더로 만드는 가장 치명적인 독이다.**        
 
 ## 📖 HISTORY
+[OSI 7 Layer && TCP/IP](#)
+[TCP && UDP](#)
+
+## 😉Contributors
+
+<a href="https://github.com/SSAFY-5th-GwanJu-4C/CS_IS_ESC/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SSAFY-5th-GwanJu-4C/CS_IS_ESC" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
