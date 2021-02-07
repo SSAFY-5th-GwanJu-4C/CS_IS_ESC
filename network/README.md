@@ -6,11 +6,11 @@
    
 |설명|링크|
 |---|---|
-|OSI 7 layers와 TCP/IP 4 layers|[✅보러가기](#)|
-|TCP와 UDP|[✅보러가기](#)|
-|HTTP와 HTTPS|[✅보러가기](#)|
-|DNS와 DHCP|[✅보러가기](#)|
-|로드밸런서|[✅보러가기](#)|
+|OSI 7 layers와 TCP/IP 4 layers|
+|TCP와 UDP|
+|HTTP와 HTTPS|
+|DNS와 DHCP|
+|로드밸런서|
 
 
 
