@@ -4,8 +4,8 @@
 
 ## 01-1. Core of Network Overview    
    
-|설명|링크|
-|---|---|
+|설명|
+|---|
 |OSI 7 layers와 TCP/IP 4 layers|
 |TCP와 UDP|
 |HTTP와 HTTPS|
