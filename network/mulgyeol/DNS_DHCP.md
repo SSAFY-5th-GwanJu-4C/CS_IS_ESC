@@ -104,7 +104,7 @@ __DHCP가 설정해주는 주소 정보__
 <p align="center"><img src="./img/DNS_DHCP/DHCP_TCP_IP.png"></p><br>
 
 ### DHCP 할당 절차
-<p align="center"><img src="./img/DNS_DHCP/DHCP_Lease.png"></p><br>
+<p align="center"><img src="./img/DNS_DHCP/DHCP_Lease.PNG"></p><br>
 
 #### 1. DHCP Discover
 - 패킷 방향 : 클라이언트 -> DHCP 서버
