@@ -1,6 +1,6 @@
 # 1. HTTP / HTTPS 
 ### ▫ HTTP 
-* Hyper Text Protocol의 약자로써 www(world wide web) 사에서 정보를 주고 받는 프로토콜 
+* Hyper Text Protocol의 약자로써 www(world wide web) 상에서 정보를 주고 받는 프로토콜 
 * 텍스트 교환방식   
 * 80 port 사용
 * TCP와 UDP 사용
