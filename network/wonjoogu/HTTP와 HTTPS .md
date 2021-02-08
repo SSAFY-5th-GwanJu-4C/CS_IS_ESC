@@ -7,15 +7,19 @@
 
 ### ▫ HTTPS 
 * HTTP의 텍스트 교환방식에서의 문제점인 네트워크 신호 노출 보안상 문제를 해결
-* 인터넷 상에서 정보를 암호화하는 SSL(Secure Socket Layer) 프로토콜을 이용
+* 인터넷 상에서 정보를 암호화하는 *SSL(Secure Socket Layer)/TLS(Transport Layer Security) 프로토콜을 이용
 * 클라이언트와 서버가 데이터 주고받는 통신 규약
 * http보다 보안상 우위
 
-    * **SSL /TLS**
-    >  * 인터넷 상에서 데이터를 안전하게 전송하기 위한 인터넷 암호화 통신 프로토콜
+    * **SSL / TLS**
+    > * SSL(Secure Sockets Layer) 은 웹사이트와 브라우저(혹은, 두 서버) 사이에 전송된 데이터를 암호화하여 인터넷 연결을 보안을 유지하는 표준 기술.   
+    이는 해커가 개인 정보 및 금융 정보를 포함한 전송되는 모든 정보를 열람하거나 훔치는 것을 방지합니다.   
     > * 데이터 송신할 때 http는 애플리케이션 계층에서 전송계층으로 보낸 후 송신
     > * **https** 는 애플리케이션 계층에서 SSL로 데이터를 전송하고 SSL은 받은 데이터를 암호화하여 전송계층으로 전달
-    > * 송수신시에 **http** 는 TCP(전송계층)을 SSL로 인식하기 때문에 기존 방식 그대로 사용
+    > * 송수신시에 **http** 는 TCP(전송계층)을 SSL로 인식하기 때문에 기존 방식 그대로 사용   
+    
+    > * TLS는 전송 계층 보안(Transport Layer Security) 으로 가장 최신 기술로 더 강력한 버전의 SSL이다.   
+    그러나 SSL이 더 일반적으로 사용되는 용어이기에, 여전히 보안 인증서는 SSL이라 불린다.
 
 <p align="center"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnsqZk%2FbtqCZ1vh5oi%2FI7dZCzIb7rI574X71WHdC1%2Fimg.png" width="50%" height="30%"></img></p>
 
