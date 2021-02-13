@@ -1,7 +1,16 @@
 # Network  
 ## 참고하면 도움될 만한 사이트    
 [유튜브_네트워크_기초](https://www.youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)   
- 
+    
+|설명|  
+|---|   
+|OSI 7 layers와 TCP/IP 4 layers|
+|TCP와 UDP| 
+|HTTP와 HTTPS|  
+|DNS와 DHCP|   
+|로드밸런서|   
+|REST API|   
+  
 ## 예상 질문들    
 ### OSI 7 Layer And TCP/IP  
 💡 OSI 7계층에 대해서 설명해주세요.               
@@ -29,16 +38,5 @@
 
 ### ETC
 💡 쿠키와 세션에 대해서 설명해 주세요.
-    
-|설명|  
-|---|   
-|OSI 7 layers와 TCP/IP 4 layers|
-|TCP와 UDP| 
-|HTTP와 HTTPS|  
-|DNS와 DHCP|   
-|로드밸런서|   
-|REST API|   
 
-
-[뒤로](#)
 
