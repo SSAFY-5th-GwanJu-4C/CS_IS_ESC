@@ -13,7 +13,7 @@
 
 ### Transport Layer
 - TCP와 UDP는 Transport Layer에서 사용되는 프로토콜이다.
-- Transport Layer는 전송계층은 IP에 의해 전달되는 패킷의 오류를 검사하고 재전송 요구 등의 제어를 담당하는 계층이다.
+- Transport Layer, 전송 계층은 IP에 의해 전달되는 패킷의 오류를 검사하고 재전송 요구 등의 제어를 담당하는 계층이다.
 
 
 ### 만약 Transport Layer(전송 계층)이 없다면?
