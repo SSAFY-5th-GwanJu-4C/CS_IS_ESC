@@ -2,21 +2,21 @@
 
 <p align="center"><img src = "http://2.bp.blogspot.com/-cvWY81etsao/ViZSUVxywxI/AAAAAAAAMHo/wxrd6dIntM8/s320/HttpPolling.gif" width="50%" height="100%"></img></p>   
 
-* 클라이언트가 n초 간격으로 http request를 서버로 계속 날려서 response를 전달받는 방식
-* HTTP는 단발성 통신이기 때문에 header 가 매우 무거운 프로토콜 중 하나로 이 프로토콜이 계속해서 request를 날리면 서버의 부담 증가
+* 클라이언트가 n초 간격으로 **http request를 서버로 계속 날려서 response를 전달받는 방식**
+* HTTP는 단발성 통신이기 때문에 header 가 매우 무거운 프로토콜 중 하나로 이 프로토콜이 **계속해서 request를 날리면 서버의 부담 증가**
 
 # Long Polling 롱폴링방식
 <p align="center"><img src = "http://2.bp.blogspot.com/-eL9rxi8th2A/ViZSW0ggEwI/AAAAAAAAMH4/k4S4-dRz3t4/s320/HttpLongPolling.gif" width="50%" height="100%"></img></p>   
 
 * 클라이언트가 서버로 일단 http 요청을 날린다.
-이 상태로 계속 기다리다가 서버에서 해당 클라이언트로 전달할 이벤트가 생기면 그순간 응답 메세지를 전달하면서 연결이 종료된다. 
+이 상태로 계속 기다리다가 서버에서 해당 클라이언트로 **전달할 이벤트가 생기면 그순간 응답 메세지를 전달하면서 연결이 종료**된다. 
 
 * 하지만 곧바로 클라이언트는 다시 요청을 날려 서버의 다음 이벤트를 기다리는 방식
 
 * 이벤트가 생길때 서버에서 응답을 보내주고, 일반 폴링 방식보다 
 서버에 부담이 줄겠지만 만약에 서버측에서 이벤트가 자주생겨 클라이언트가 요청을 보내는 시간이 짧아진다면 폴링과 별 차이가 없어진다.
 
-* 또 다수의 클라이언트가 동시에 이벤트가 발생될 경우 곧바로 동시에 다수의 클라이언트에게 서버로 요청이 오기때문에
+* 또 다수의 클라이언트가 동시에 이벤트가 발생될 경우 곧바로 동시에 다수의 클라이언트에게 서버로 요청이 오기 때문에
 서버의 부담이 단시간에 급증
 
 1. 클라이언트가 웹서버로 HTTP 요청을보낸다
@@ -30,12 +30,12 @@
 # Streaming
 <p align="center"><img src = "http://4.bp.blogspot.com/-sRVlAdeU-Kw/ViZSWw-wB2I/AAAAAAAAMH0/3CmKGISDV-A/s320/HttpStreaming.gif" width="50%" height="100%"></img></p>   
 
-* 클라이언트가 HTTP 요청을 서버에게 보내고 서버는 응답을 끊임 없이 흘려보낸다(trickles out).
-* 즉 long-polling처럼 요청을 끊지 않고 하나의 HTTP연결에서 데이터를 보내는 방식.
+* 클라이언트가 HTTP 요청을 서버에게 보내고 **서버는 응답을 끊임 없이 흘려보낸다(trickles out).**
+* 즉 long-polling처럼 **요청을 끊지 않고 하나의 HTTP연결에서 데이터를 보내는 방식.**
 
 🙋‍♂️  long-polling에 비해 서버에서 메시지를 보내고 다시 http 요청을 보내지 않아도 연결이 이어져 있으므로 웹소켓의 대안이 될 수 있다?   
 
-> 아니다. 스트리밍에서는 하나의 TCP포트로 읽기와 쓰기를 동시에 할 수 없다.    
+> 아니다. **스트리밍에서는 하나의 TCP포트로 읽기와 쓰기를 동시에 할 수 없다.**    
 즉 서버에서 클라이언트로 메세지를 보낼 수 있으나 클라이언트에서 서버로 메세지를 보낼려면 꼼수가 필요하다.    
 예를 들면 채팅 서비스를 구현할 경우 메시지 입력은 TCP가 아닌 포트를 통해 받아야할 것. 
 
@@ -48,9 +48,10 @@
 * Long polling기술 : 서버에 요청보내고 이벤트가 생겨 응답 받을 때 까지 연결안끊기. 응답받으면 끊고 다시 새요청보냄(근데 새 이벤트 생기면 모든 사용자가 연결 끊고 동시에 새요청보내게됨>서버무리)
 * Streaming 기술 : 서버에 요청보내고 끊기지 않은 연결상태에서 끊임없이 데이터받기(근데 클라이언트가 서버로 요청을 보내기 좀 힘듬. 스트리밍에서는 하나의 포트써서 읽고 쓰기 동시에 안됨)
 
-여기서 실시간 상호작용처럼 꼼수를 부린 long polling 과 streaming은 HTTP Comet으로도 불린다. 이는 특정기술 이름이 아니고 HTTP에서 데이터를 push하기 위한 방식자체기술을 어울러 말한다. 추가로 이 HTTP COMET들은 TCP 연결과정(Threeway handshake)에서의 오버헤드때문에 비효율적!
+여기서 실시간 상호작용처럼 꼼수를 부린 long polling 과 streaming은 HTTP Comet으로도 불린다. 
+이는 특정기술 이름이 아니고 HTTP에서 데이터를 push하기 위한 방식자체기술을 어울러 말한다. 추가로 이 HTTP COMET들은 TCP 연결과정(Threeway handshake)에서의 오버헤드때문에 **비효율적!**
 
-❗ 하지만 웹 소켓은 실시간 네트워킹이 가능하다.
+❗ 하지만 **웹 소켓은 실시간 네트워킹이 가능하다.**
 
 # WebSocket 웹 소켓
 <p align="center"><img src = "https://miro.medium.com/max/533/1*UDwuuzptZlTpH-jJ9rDYgw.png" width="50%" height="100%"></img></p>   
