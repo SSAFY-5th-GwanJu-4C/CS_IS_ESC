@@ -1,15 +1,6 @@
 # CS_IS_ESC
 광주 4반, CS스터디
 
-## 이번 주 범위!
-|이름|확인|
-|---|---|
-|Polling vs Long polling vs Socket|✔|
-|Blocking vs NonBlocking And Sync vs Async|✔|
-|Cors|✔|
-|OAuth vs OAut2|✔|
-
-
 ## LICENSE
 This is released under the MIT license. See [LICENSE](https://github.com/SSAFY-5th-GwanJu-4C/CS_IS_ESC/blob/main/LICENSE) for details.
 
