@@ -14,7 +14,7 @@
 ## 인증과 인가
 - __인증__ : 식별가능한 정보로 서비스에 등록된 유저의 신원을 입증하는 과정
 - __인가__ : 인증된 사용자에 대한 자원 접근 권한을 확인하는 과정
-- 인증은 인가에 선행되며 인증된 유저에 한해서만 접근 권환을 확인한다.
+- 인증은 인가에 선행되며 인증된 유저에 한해서만 접근 권한을 확인한다.
 
 #### 웹에서의 인증과 인가
 - 회원만이 게시글을 읽고 쓸 수 있다.
@@ -247,7 +247,7 @@ Resource Server에 Client가 본인을 알리고, Client ID와 Secret을 받아�
 <summary>Google 예시(작년)</summary>
 <div markdown="1">
 <br>
-<a href="https://daily-mulgyeol.tistory.com/43)"> Django - social login </a>
+<a href="https://daily-mulgyeol.tistory.com/43"> Django - social login </a>
 </div>
 </details>
 
@@ -579,4 +579,4 @@ curl은 주소를 입력하면 웹페이지를 다운받는 프로그램.
 </details>
 
 ---
-#끝
+# 끝
