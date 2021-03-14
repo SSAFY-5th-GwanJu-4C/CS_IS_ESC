@@ -30,7 +30,7 @@
 - 만들어진 실행 파일을 메모리에 __적재__ 하는 과정을 하는 것은 `로더`이다. 
 - `실행 파일`은 `로더`에 의해 적재되어야만 실행이 가능하다.
 
-<p align="center"><img src="./os_img/PageSegment/01.jfif" height=300></p>
+<p align="center"><img src="./os_img/PageSegment/01.jfif"></p>
 
 ---
 ## MMU(Memory Management Unit)
@@ -102,7 +102,7 @@
 - 프로세스들은 여러 위치의 메모리에 적재되기 때문에 `scattered holes`가 생성되게 된다. 
     - 프로세스가 순서대로 쌓이더라도 작업이 끝나는 순서는 정해져 있지 않고 다시 들어오는 프로세스와도 메모리 공간 차지 사이즈가 다르기 때문에 메모리의 빈 공간이 중간 중간에 계속 생성된다.
 
-<p align="center"><img src="./os_img/PageSegment/05.png" height=300></p><br>
+<p align="center"><img src="./os_img/PageSegment/05.png"></p><br>
 
 #### 외부 단편화
 - scattered holes가 계속 발생하게 되면 hole 들이 불연속하게 흩어져 있게 되어 `메모리 단편화 현상`이 발생하게 된다. 
@@ -161,7 +161,7 @@
 - 프로세스를 자르는 단위는 `Page`이다. 
 - 이와 동일한 크기로 메모리를 자른 것을 `Frame`이라고 한다. 
 
-<p align="center"><img src="./os_img/PageSegment/07.png" height=300></p>
+<p align="center"><img src="./os_img/PageSegment/07.png"></p>
 
 - 같은 크기로 페이지와 프레임으로 잘라져 있기 때문에 페이지를 프레임에 할당하면 딱 맞아 떨어진다. 
 - 이 때 페이지를 관리하는 MMU는 `페이지 테이블`이 된다. 
@@ -196,7 +196,7 @@
         - 3번인덱스가 2 = 10(2)이므로, 실제 물리메모리에서 참조해야할 주소는 10+01으로 1001 = `9`번지에 실제 프로세스의 페이지가 위치한다. 
 
 #### 내부단편화
-<p align="center"><img src="./os_img/PageSegment/09.png"></p>
+<p align="center"><img src="./os_img/PageSegment/09.png" width=400></p>
 
 - 하지만 페이징 과정을 진행하면 내부 단편화가 발생할 수 있다. 
 - 페이징은 프로세스를 특정 단위인 페이지 단위로 나누어 주고 된다. 
