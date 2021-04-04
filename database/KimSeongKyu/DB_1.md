@@ -33,7 +33,7 @@
 - DB를 구성하는 데이터 개체(Entity), 속성(Attribute), 관계(Relationship) 및 데이터의 제약 조건 등에 대해 정의
 - 사용자의 관점에 따라 외부 schema, 내부 schema, 개념 schema로 나뉨
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e04106f4-9fea-4016-b096-5e913516899f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e04106f4-9fea-4016-b096-5e913516899f/Untitled.png)
+<img src="https://github.com/KimSeongKyu/CS_IS_ESC/blob/KimSeongKyu/database/KimSeongKyu/images/schema%EA%B5%AC%EC%A1%B0.png" width="500" height="400">
 
 ---
 
