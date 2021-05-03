@@ -1,4 +1,4 @@
-![](https://images.velog.io/images/mulgyeol/post/0db88163-1333-4ec8-a9bd-d64bc62b7a82/1032.jpg)
+![img](img/Database.jpg)
 
 # [Database] RDBMS/NoSQL 정리
 
