@@ -1,11 +1,3 @@
----
-title: '[Database] Transaction 정리'
-date: 2021-05-02 16:05:00
-category: Dev Basic
-thumbnail: { thumbnailSrc }
-draft: false
----
-
 ![img](img/Database.jpg)
 
 # [Database] Transaction 정리
